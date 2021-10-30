@@ -8,5 +8,3 @@ export const greeting = () => {
 };
 
 export const getUserAnswer = () => readlineSync.question('Your answer: ').toLowerCase();
-
-// export default greeting;
