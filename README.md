@@ -7,6 +7,8 @@
 [![asciicast](https://asciinema.org/a/DaYlMAfKFkfUWXqKgSf6r0I3c.svg)](https://asciinema.org/a/DaYlMAfKFkfUWXqKgSf6r0I3c)
 ## Brain-progression
 [![asciicast](https://asciinema.org/a/UJfmiCSaNtCoredE9LKHpaWV7.svg)](https://asciinema.org/a/UJfmiCSaNtCoredE9LKHpaWV7)
+## Brain-prime
+[![asciicast](https://asciinema.org/a/M6uO1IxwL9a7U9Em1of7Yyva3.svg)](https://asciinema.org/a/M6uO1IxwL9a7U9Em1of7Yyva3)
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/mdx10/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/mdx10/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
