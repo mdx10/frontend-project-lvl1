@@ -1,6 +1,6 @@
 # Brain games
 [![Actions Status](https://github.com/mdx10/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/mdx10/frontend-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e948942dd9b21a39f183/maintainability)](https://codeclimate.com/github/mdx10/frontend-project-lvl1/maintainability)
 [![Test-project](https://github.com/mdx10/frontend-project-lvl1/workflows/test-project/badge.svg)](https://github.com/mdx10/frontend-project-lvl1/actions)
 
 ## Setup

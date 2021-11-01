@@ -1,10 +1,15 @@
-import { getRandomNum } from '../index.js';
+import getRandomNum from '../lib.js';
+import runEngine from '../index.js';
 
-export const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-export const gameEven = () => {
+const isEven = (number) => number % 2 === 0;
+
+const generateGameData = () => {
   const question = getRandomNum(100);
-  const answer = question % 2 === 0 ? 'yes' : 'no';
+  const answer = isEven(question) ? 'yes' : 'no';
 
   return [question, answer];
 };
+
+export default () => runEngine(gameRules, generateGameData);
