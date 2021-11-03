@@ -1,31 +1,26 @@
-import getRandomNum from '../lib.js';
+import getRandomNumber from '../utils.js';
 import runEngine from '../index.js';
 
 const gameRules = 'What is the result of the expression?';
+const operations = ['+', '-', '*'];
 
 const calculate = (operand1, operand2, operation) => {
-  let result;
   switch (operation) {
     case '+':
-      result = operand1 + operand2;
-      break;
+      return operand1 + operand2;
     case '-':
-      result = operand1 - operand2;
-      break;
+      return operand1 - operand2;
     case '*':
-      result = operand1 * operand2;
-      break;
-    // no default
+      return operand1 * operand2;
+    default:
+      throw new Error(`operation ${operation} is not supported`);
   }
-
-  return result;
 };
 
 const generateGameData = () => {
-  const operations = ['+', '-', '*'];
-  const operand1 = getRandomNum();
-  const operand2 = getRandomNum();
-  const operation = operations[getRandomNum(operations.length - 1)];
+  const operand1 = getRandomNumber();
+  const operand2 = getRandomNumber();
+  const operation = operations[getRandomNumber(operations.length - 1)];
 
   const question = `${operand1} ${operation} ${operand2}`;
   const answer = calculate(operand1, operand2, operation);
